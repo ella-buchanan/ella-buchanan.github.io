@@ -1,0 +1,44 @@
+nav {
+    background-color: #69091f;
+    padding: 25px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+}
+
+nav a {
+    color: #fee4cd;
+    text-decoration: none;
+    font-size: 16px;
+}
+.nav-brand {
+    color: #fee4cd;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+section {
+    padding: 40px 20px;
+    height: 600px;
+    text-align: center;
+}
+
+.bg-burgundy {
+    background-color: #69091f;
+}
+
+.bg-cream {
+    background-color: #fee4cd;
+}
+
+.bg-cream h2 {
+    color: #69091f;
+}
+
+section h2 {
+    font-size: 24px;
+    color: #fee4cd;
+}
