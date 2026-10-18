@@ -1,6 +1,6 @@
 nav {
     background-color: #69091f;
-    padding: 25px;
+    padding: 30px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -26,15 +26,17 @@ nav a {
 
 .nav-brand {
     color: #fee4cd;
-    font-size: 30px;
-    font-weight: bold;
+    font-family: Georgia, serif;
+    font-style: italic;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
+    font-size: 50px;
 }
+
 section {
     padding: 40px 20px;
-    height: 600px;
+    height: 650px;
     text-align: center;
 }
 
@@ -50,9 +52,12 @@ section {
     color: #69091f;
 }
 
-section h2 {
-    font-size: 24px;
+h2 {
+    font-size: 30px;
     color: #fee4cd;
+    padding: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
 }
 
 img {
