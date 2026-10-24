@@ -39,6 +39,9 @@ section {
     height: 650px;
     text-align: center;
 }
+.container-fluid.bg-cream.Extra-long-section {
+    height: 1600px;
+}
 
 .bg-burgundy {
     background-color: #69091f;
@@ -55,7 +58,7 @@ section {
 h2 {
     font-size: 30px;
     color: #fee4cd;
-    padding: 30px;
+    padding: 20px;
     font-family: 'Montserrat', sans-serif;
     font-style: italic;
 }
@@ -64,4 +67,53 @@ img {
     width: 100%;
     height: 500px;
     object-fit: cover;
+}
+
+p {
+    font-size: 20px;
+    color: #69091f;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+    font-size: 25px;
+    color: #69091f;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+}
+
+a {
+    color: #69091f;
+}
+
+.featured-photo {
+    width: 100%;
+    height: 500px;
+    object-fit: contain;
+}
+
+.text-cream {
+    color: #fee4cd;
+}
+
+footer {
+    padding: 10px;
+}
+
+.photo-gallery {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 15px;
+}
+
+.photo-gallery img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    display: block;
+}
+.photo-gallery .gallery-tall {
+    grid-row: span 2;
+    height: 455px;
 }
