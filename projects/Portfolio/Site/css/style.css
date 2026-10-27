@@ -29,10 +29,10 @@ nav a {
     color: #fee4cd;
     font-family: Georgia, serif;
     font-style: italic;
+    font-size: 50px;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    font-size: 50px;
 }
 
 /* General Section Styling */
@@ -47,11 +47,15 @@ section {
 }
 
 /* Background Colors */
-.bg-burgundy {
+.bg-burgundy,
+.services-section,
+.testimonial-box,
+.testimonials-heading {
     background-color: #69091f;
 }
 
-.bg-cream {
+.bg-cream,
+.testimonials-section {
     background-color: #fee4cd;
 }
 
@@ -60,23 +64,39 @@ section {
 }
 
 /* Headings */
+h2,
+h3,
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
 h2 {
     font-size: 30px;
     color: #fee4cd;
     padding: 20px;
-    font-family: 'Montserrat', sans-serif;
     font-style: italic;
 }
 
-.bg-cream h2 {
+
+.bg-cream h2,
+.testimonials-section h2 {
     color: #69091f;
 }
+
+.services-section h2 {
+    color: #fee4cd;
+}
+
 
 h3 {
     font-size: 25px;
     color: #69091f;
-    font-family: 'Montserrat', sans-serif;
     font-style: italic;
+}
+
+h4 {
+    color: #69091f;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* Text and Links */
@@ -84,7 +104,6 @@ p {
     font-size: 20px;
     color: #69091f;
     padding: 10px;
-    font-family: 'Montserrat', sans-serif;
 }
 
 a {
@@ -92,15 +111,17 @@ a {
 }
 
 /* Images */
-img {
+img,
+.featured-photo {
     width: 100%;
     height: 500px;
+}
+
+img {
     object-fit: cover;
 }
 
 .featured-photo {
-    width: 100%;
-    height: 500px;
     object-fit: contain;
 }
 
@@ -112,9 +133,7 @@ img {
 }
 
 .photo-gallery img {
-    width: 100%;
     height: 220px;
-    object-fit: cover;
     display: block;
 }
 
@@ -123,100 +142,145 @@ img {
     height: 455px;
 }
 
-/* Services Section */
-.services-section {
-    background-color: #69091f;
+/* Services and Testimonials Sections */
+.services-section,
+.testimonials-section {
     padding: 40px 0;
 }
 
-.services-section h2 {
-    color: #fee4cd;
+.services-section h2,
+.services-subtitle,
+.testimonials-section h2,
+.testimonials-subtitle,
+.services-section h3,
+.testimonial-box h3,
+.testimonials-heading h2,
+.testimonials-heading p {
     text-align: center;
+}
+
+.services-section h2,
+.testimonials-section h2,
+.testimonials-heading h2 {
     margin-bottom: 5px;
 }
 
-.services-subtitle {
-    color: #fee4cd;
-    text-align: center;
+.services-subtitle,
+.testimonials-subtitle {
     margin-bottom: 30px;
 }
 
-.services-section h3 {
-    background-color: #fee4cd;
-    color: #69091f;
-    text-align: center;
-    padding: 15px;
-    border: 2px solid #fee4cd;
-    margin-bottom: 15px;
-    border-radius: 10px;
+.services-subtitle,
+.testimonial-box p,
+.testimonial-box h3,
+.testimonials-heading h2,
+.testimonials-heading p {
+    color: #fee4cd;
 }
 
+.testimonials-subtitle,
+.testimonials-section h2 {
+    color: #69091f;
+}
+
+/* Service Boxes */
+.services-section h3,
 .services-section .service-box {
     background-color: #fee4cd;
     color: #69091f;
     border: 2px solid #fee4cd;
-    padding: 20px;
-    margin-bottom: 20px;
     border-radius: 10px;
 }
 
-/* Testimonials Section */
-.testimonials-section {
-    background-color: #fee4cd;
-    padding: 30px 0;
+.services-section h3 {
+    padding: 15px;
+    margin-bottom: 15px;
 }
 
-.testimonials-section h2 {
-    color: #69091f;
-    text-align: center;
-    margin-bottom: 5px;
+.services-section .service-box {
+    padding: 20px;
+    margin-bottom: 20px;
 }
 
-.testimonials-subtitle {
-    color: #69091f;
-    text-align: center;
-    margin-bottom: 30px;
+/* Testimonial Boxes */
+.testimonial-box,
+.testimonials-heading {
+    border: 2px solid #69091f;
+    border-radius: 10px;
 }
 
 .testimonial-box {
-    background-color: #69091f;
-    border: 2px solid #69091f;
-    border-radius: 10px;
     padding: 20px;
     min-height: 200px;
     margin-bottom: 20px;
 }
 
 .testimonial-box p {
-    color: #fee4cd;
     font-size: 18px;
 }
 
 .testimonial-box h3 {
-    color: #fee4cd;
     font-size: 20px;
-    text-align: center;
     margin-top: 15px;
 }
 
-/* Testimonials Heading Box */
 .testimonials-heading {
-    background-color: #69091f;
-    border: 2px solid #69091f;
-    border-radius: 10px;
     margin-bottom: 20px;
 }
 
-.testimonials-heading h2 {
-    color: #fee4cd;
+.testimonials-heading p {
+    margin-bottom: 0;
+}
+
+/* Resume Section */
+.resume-section {
+    height: auto;
+    padding: 20px 40px;
+    text-align: left;
+}
+
+.resume-section h2 {
     text-align: center;
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+
+.resume-section h3 {
+    text-align: left;
+    margin-top: 15px;
     margin-bottom: 5px;
 }
 
-.testimonials-heading p {
-    color: #fee4cd;
-    text-align: center;
-    margin-bottom: 0;
+.resume-section h4 {
+    text-align: left;
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.resume-section p {
+    text-align: left;
+    padding: 2px 0;
+    margin-bottom: 3px;
+    font-size: 15px;
+    line-height: 1.2;
+}
+
+.resume-section ul {
+    text-align: left;
+    padding-left: 15px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.resume-section li {
+    text-align: left;
+    font-size: 15px;
+    line-height: 1.2;
+    margin-bottom: 3px;
+}
+
+.resume-section .row {
+    margin-bottom: 10px;
 }
 
 /* Footer */
