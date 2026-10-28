@@ -316,17 +316,17 @@ footer {
     object-fit: contain;
 }
 
-.about-story, {
+.about-story {
     background-color: #69091f;
     color: #fee4cd;
 }
 
 .about-story h2,
-.about-story p,{
+.about-story p {
     color: #fee4cd;
 }
 
-.about-story-image, {
+.about-story-image {
     width: 100%;
     height: 500px;
     object-fit: contain;
