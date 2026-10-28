@@ -77,16 +77,9 @@ h2 {
     font-style: italic;
 }
 
-
-.bg-cream h2,
-.testimonials-section h2 {
+.bg-cream h2 {
     color: #69091f;
 }
-
-.services-section h2 {
-    color: #fee4cd;
-}
-
 
 h3 {
     font-size: 25px;
@@ -178,8 +171,7 @@ img {
     color: #fee4cd;
 }
 
-.testimonials-subtitle,
-.testimonials-section h2 {
+.testimonials-subtitle {
     color: #69091f;
 }
 
@@ -228,62 +220,135 @@ img {
     margin-bottom: 20px;
 }
 
+.testimonials-section .testimonials-heading h2 {
+    color: #fee4cd;
+}
+
 .testimonials-heading p {
     margin-bottom: 0;
 }
 
-/* Resume Section */
-.resume-section {
+/* My Experience Section */
+.experience-section {
     height: auto;
-    padding: 20px 40px;
-    text-align: left;
-}
-
-.resume-section h2 {
+    padding: 50px 20px;
     text-align: center;
-    padding: 10px 0;
-    margin-bottom: 10px;
 }
 
-.resume-section h3 {
-    text-align: left;
-    margin-top: 15px;
-    margin-bottom: 5px;
-}
-
-.resume-section h4 {
-    text-align: left;
-    font-size: 18px;
-    margin: 5px 0;
-}
-
-.resume-section p {
-    text-align: left;
-    padding: 2px 0;
-    margin-bottom: 3px;
-    font-size: 15px;
-    line-height: 1.2;
-}
-
-.resume-section ul {
-    text-align: left;
-    padding-left: 15px;
-    margin-top: 0;
+.experience-section h2 {
+    color: #69091f;
+    text-align: center;
+    padding: 10px;
     margin-bottom: 15px;
 }
 
-.resume-section li {
-    text-align: left;
-    font-size: 15px;
-    line-height: 1.2;
-    margin-bottom: 3px;
+.experience-intro {
+    text-align: center;
+    max-width: 750px;
+    margin: 0 auto 40px;
+    line-height: 1.7;
 }
 
-.resume-section .row {
+.experience-item {
+    padding: 25px 15px;
+    margin: 0 auto 20px;
+    max-width: 900px;
+    text-align: center;
+}
+
+.experience-section h3 {
+    font-size: 24px;
+    text-align: center;
     margin-bottom: 10px;
+}
+
+.experience-section h4 {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.experience-section p {
+    font-size: 17px;
+    line-height: 1.7;
+    text-align: center;
+    padding: 5px 0;
+    margin-bottom: 10px;
+}
+
+.experience-section .row:last-child {
+    margin-top: 20px;
 }
 
 /* Footer */
 footer {
     padding: 10px;
+}
+
+/* About Page */
+.about-section,
+.about-story,
+.about-journey,
+.about-style {
+    height: auto;
+    padding: 40px 20px;
+}
+
+.about-text {
+    text-align: left;
+}
+
+.about-title {
+    color: #6D2932;
+    font-weight: bold;
+}
+
+.about-text h1 {
+    color: #69091f;
+    font-family: Georgia, serif;
+    font-style: italic;
+    font-size: 50px;
+}
+
+.about-image img {
+    width: 100%;
+    height: 600px;
+    object-fit: contain;
+}
+
+.about-story, {
+    background-color: #69091f;
+    color: #fee4cd;
+}
+
+.about-story h2,
+.about-story p,{
+    color: #fee4cd;
+}
+
+.about-story-image, {
+    width: 100%;
+    height: 500px;
+    object-fit: contain;
+}
+
+.about-journey,
+.about-style {
+    text-align: center;
+}
+
+.about-outline {
+    border: 2px solid #C7B7A3;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.about-outline img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.about-outline-text {
+    padding: 15px;
 }
