@@ -170,6 +170,7 @@ h2 {
 .about-text {
     text-align: left;
 }
+
 h1 {
     color: #69091f;
     font-family: Georgia, serif;
@@ -183,7 +184,6 @@ h1 {
 }
 
 .about-story-image {
-    height: 500px;
     object-fit: contain;
 }
 
@@ -193,7 +193,6 @@ h1 {
 
 .about-story {
     background-color: #69091f;
-    color: #fee4cd;
 }
 
 .about-story h2,
@@ -218,7 +217,6 @@ h1 {
 
 .contact-top-photo {
     height: 300px;
-    object-fit: cover;
 }
 
 footer {
