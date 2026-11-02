@@ -352,3 +352,17 @@ footer {
 .about-outline-text {
     padding: 15px;
 }
+
+.contact-photo {
+    height: 600px;
+}
+
+.contact-top-photo {
+    height: 300px;
+    object-fit: cover;
+}
+
+.auto-section {
+    height: auto;
+    padding: 50px 20px;
+}
