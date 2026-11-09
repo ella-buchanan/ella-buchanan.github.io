@@ -43,7 +43,7 @@ h1 {
 .bg-burgundy h1 {
     color: #fee4cd;
 }
-`
+
 h2 {
     font-size: 1.5em;
     color: #fee4cd;
@@ -51,19 +51,19 @@ h2 {
     font-style: italic;
     margin-bottom: 5px;
 }
-
+.bg-cream .testimonials-heading h2 {
+    color: #fee4cd;
+}
 h3 {
     font-size: 1.25em;
     color: #69091f;
     font-style: italic;
 }
 
-
 section {
     padding: 40px 20px;
     text-align: center;
 }
-
 
 .bg-cream {
     background-color: #fee4cd;
@@ -104,15 +104,8 @@ footer {
     padding: 15px;
 }
 
-
-.testimonial-box h3,
-.testimonials-heading h2,
-.testimonials-heading p {
-    color: #fee4cd;
-}
-
 .services-section h3,
-.services-section .service-box {
+.service-box {
     background-color: #fee4cd;
     border: 2px solid #fee4cd;
     border-radius: 10px;
@@ -139,6 +132,7 @@ footer {
     min-height: 200px;
     margin-bottom: 20px;
 }
+
 .testimonial-box p {
     font-size: 0.9em;
 }
@@ -146,16 +140,6 @@ footer {
 .testimonials-heading {
     margin-bottom: 20px;
 }
-
-
-
-
-
-
-
-
-
-
 
 img {
     width: 100%;
