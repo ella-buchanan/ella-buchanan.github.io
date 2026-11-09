@@ -5,6 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ella Buchanan Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
     <meta name="description" content="Photography Website and Portfolio of Ella Buchanan">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
@@ -18,53 +22,55 @@
 </head>
 
 <body>
-    <nav>
-        <div class="nav-links">
-            <a href="../">Home</a>
-            <a href="../About/">About</a>
-            <a href="../Services/">Services</a>
-            <a href="#">Contact</a>
-        </div>
-        <div class="nav-instagram">
-            <a href="https://www.instagram.com/ellab_images/" target="_blank"><u>Instagram</u></a>
-        </div>
-        <div class="nav-brand">
-            Ella B Images LLC
-        </div>
-    </nav>
-    <section class="container-fluid bg-cream">
-        <div class="row">
+    <header>
+        <nav class="row align-items-center">
             <div class="col-md-4">
-                <img src="/projects/Portfolio/Site/img/soccer5.jpg" class="contact-top-photo"
-                    alt="Soccer game action shot">
+                <a href="https://www.instagram.com/ellab_images/" target="_blank"><u>Instagram</u></a>
             </div>
-            <div class="col-md-4">
-                <img src="/projects/Portfolio/Site/img/charolette.jpg" class="contact-top-photo"
-                    alt="Charolette Lawerence Concert portrait photo">
+            <div class="col-md-4 text-center">
+                <h1>Ella B Images LLC</h1>
             </div>
-            <div class="col-md-4">
-                <img src="/projects/Portfolio/Site/img/flying.jpg" class="contact-top-photo"
-                    alt="Gymkana Performance Member jumping rope on Trampoline Photo">
+            <div class="col-md-4 text-end">
+                <a href="../">Home</a>
+                <a href="../about/">About</a>
+                <a href="../services/">Services</a>
+                <a href="#">Contact</a>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-12">
-                <h2>Let's Connect!</h2>
-                <p> Interested in working together or booking a photography
-                    session? I would love to hear from you! </p>
-                <p>
-                    <strong>Reach out using the contact information below:</strong><br>
-                    <strong>Email:</strong> ellabimages@gmail.com<br>
-                    <strong>Phone:</strong> (301) 704-6991<br>
-                    <strong>Instagram:</strong> <a href="https://www.instagram.com/ellab_images/"
-                        target="_blank">@ellab_images</a>
-                </p>
-                <img src="/projects/Portfolio/Site/img/coolfh.jpg" alt="Field Hockey game action shot"
-                    class="contact-photo">
+        </nav>
+    </header>
+
+    <main class="container-fluid">
+        <section class="bg-cream">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="/projects/portfolio/site/img/soccer5.jpg" class="contact-top-photo"
+                        alt="Soccer game action shot">
+                </div>
+                <div class="col-md-4">
+                    <img src="/projects/portfolio/site/img/charolette.jpg" class="contact-top-photo"
+                        alt="Charolette Lawerence Concert portrait photo">
+                </div>
+                <div class="col-md-4">
+                    <img src="/projects/portfolio/site/img/flying.jpg" class="contact-top-photo"
+                        alt="Gymkana Performance Member jumping rope on Trampoline Photo">
+                </div>
             </div>
-        </div>
-    </section>
-    <footer class="bg-burgundy text-center">
+
+            <h1>Let's Connect!</h1>
+            <p> Interested in working together or booking a photography
+                session? I would love to hear from you! </p>
+            <p>
+                <strong>Reach out using the contact information below:</strong><br>
+                <strong>Email:</strong> ellabimages@gmail.com<br>
+                <strong>Phone:</strong> (301) 704-6991<br>
+                <strong>Instagram:</strong> <a href="https://www.instagram.com/ellab_images/"
+                    target="_blank">@ellab_images</a>
+            </p>
+            <img src="/projects/portfolio/site/img/coolfh.jpg" alt="Field Hockey game action shot"
+                class="contact-photo">
+        </section>
+    </main>
+    <footer class="text-center">
         <p class="text-cream">
             &copy; 2026 Ella B Images LLC. All rights reserved.
         </p>

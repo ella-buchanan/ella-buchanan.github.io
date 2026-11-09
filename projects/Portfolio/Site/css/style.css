@@ -1,83 +1,161 @@
+.container-fluid {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    background-color: #69091f;
+    color: #69091f;
+}
+
+a {
+    color: #69091f;
+}
+
 nav {
     background-color: #69091f;
     padding: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    position: relative;
 }
 
 nav a {
     color: #fee4cd;
     text-decoration: none;
     font-size: 20px;
+    padding: 0 1% 0 0;
 }
 
-.nav-links {
-    display: flex;
-    gap: 30px;
-    margin-left: auto;
-}
-
-.nav-instagram {
-    position: absolute;
-    left: 25px;
-}
-
-.nav-brand {
+header h1 {
     color: #fee4cd;
     font-family: Georgia, serif;
     font-style: italic;
-    font-size: 50px;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
+    font-size: 2.5em;
 }
+
+h1 {
+    color: #69091f;
+    font-family: Georgia, serif;
+    font-style: italic;
+    font-size: 2.5em;
+}
+
+.bg-burgundy h1 {
+    color: #fee4cd;
+}
+`
+h2 {
+    font-size: 1.5em;
+    color: #fee4cd;
+    padding: 20px;
+    font-style: italic;
+    margin-bottom: 5px;
+}
+
+h3 {
+    font-size: 1.25em;
+    color: #69091f;
+    font-style: italic;
+}
+
 
 section {
     padding: 40px 20px;
     text-align: center;
 }
 
-.bg-burgundy,
-.testimonial-box,
-.testimonials-heading {
-    background-color: #69091f;
-}
 
 .bg-cream {
     background-color: #fee4cd;
+}
+
+p {
+    padding: 8px;
+}
+
+footer {
+    padding: 10px;
+}
+
+.testimonial-box,
+.testimonials-heading {
+    background-color: #69091f;
 }
 
 .text-cream {
     color: #fee4cd;
 }
 
-h2,
-h3,
-p {
-    font-family: 'Montserrat', sans-serif;
+.about-text {
+    text-align: left;
 }
 
 .bg-cream h2 {
     color: #69091f;
 }
 
-h3 {
-    font-size: 25px;
-    color: #69091f;
-    font-style: italic;
+.about-outline {
+    border: 2px solid #C7B7A3;
+    margin-bottom: 20px;
+    text-align: left;
 }
 
-p {
-    font-size: 20px;
-    color: #69091f;
-    padding: 10px;
+.about-outline-text {
+    padding: 15px;
 }
 
-a {
-    color: #69091f;
+
+.testimonial-box h3,
+.testimonials-heading h2,
+.testimonials-heading p {
+    color: #fee4cd;
 }
+
+.services-section h3,
+.services-section .service-box {
+    background-color: #fee4cd;
+    border: 2px solid #fee4cd;
+    border-radius: 10px;
+}
+
+.services-section h3 {
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.services-section .service-box {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.testimonial-box,
+.testimonials-heading {
+    border: 2px solid #69091f;
+    border-radius: 10px;
+}
+
+.testimonial-box {
+    padding: 20px;
+    min-height: 200px;
+    margin-bottom: 20px;
+}
+.testimonial-box p {
+    font-size: 0.9em;
+}
+
+.testimonials-heading {
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
 
 img {
     width: 100%;
@@ -105,79 +183,6 @@ img {
     height: 455px;
 }
 
-h2 {
-    font-size: 30px;
-    color: #fee4cd;
-    padding: 20px;
-    font-style: italic;
-    margin-bottom: 5px;
-}
-
-.testimonial-box p,
-.testimonial-box h3,
-.testimonials-heading h2,
-.testimonials-heading p {
-    color: #fee4cd;
-}
-
-.services-section h3,
-.services-section .service-box {
-    background-color: #fee4cd;
-    color: #69091f;
-    border: 2px solid #fee4cd;
-    border-radius: 10px;
-}
-
-.services-section h3 {
-    padding: 15px;
-    margin-bottom: 15px;
-}
-
-.services-section .service-box {
-    padding: 20px;
-    margin-bottom: 20px;
-}
-
-.testimonial-box,
-.testimonials-heading {
-    border: 2px solid #69091f;
-    border-radius: 10px;
-}
-
-.testimonial-box {
-    padding: 20px;
-    min-height: 200px;
-    margin-bottom: 20px;
-}
-
-.testimonial-box p {
-    font-size: 18px;
-}
-
-.testimonial-box h3 {
-    font-size: 20px;
-    margin-top: 15px;
-}
-
-.testimonials-heading {
-    margin-bottom: 20px;
-}
-
-.testimonials-heading p {
-    margin-bottom: 0;
-}
-
-.about-text {
-    text-align: left;
-}
-
-h1 {
-    color: #69091f;
-    font-family: Georgia, serif;
-    font-style: italic;
-    font-size: 50px;
-}
-
 .about-image img {
     height: 600px;
     object-fit: contain;
@@ -191,34 +196,10 @@ h1 {
     height: 250px;
 }
 
-.about-story {
-    background-color: #69091f;
-}
-
-.about-story h2,
-.about-story p {
-    color: #fee4cd;
-}
-
-
-.about-outline {
-    border: 2px solid #C7B7A3;
-    margin-bottom: 20px;
-    text-align: left;
-}
-
-.about-outline-text {
-    padding: 15px;
-}
-
 .contact-photo {
     height: 600px;
 }
 
 .contact-top-photo {
     height: 300px;
-}
-
-footer {
-    padding: 10px;
 }

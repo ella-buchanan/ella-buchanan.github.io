@@ -5,6 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ella Buchanan Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
     <meta name="description" content="Photography Website and Portfolio of Ella Buchanan">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
@@ -18,116 +22,131 @@
 </head>
 
 <body>
-    <nav>
-        <div class="nav-links">
-            <a href="../">Home</a>
-            <a href="../About/">About</a>
-            <a href="#">Services</a>
-            <a href="../Contact/">Contact</a>
-        </div>
-        <div class="nav-instagram">
-            <a href="https://www.instagram.com/ellab_images/" target="_blank"><u>Instagram</u> </a>
-        </div>
-        <div class="nav-brand">
-            Ella B Images LLC
-        </div>
-    </nav>
-    <section class="bg-burgundy services-section">
-        <h2>My Services</h2>
-        <div class="row">
+    <header>
+        <nav class="row align-items-center">
             <div class="col-md-4">
-                <h3>Sports Photography</h3>
-                <div class="service-box">
-                    <p>For those fast paced fleeting moments of the game! I will come capture warm up, mid game
-                        action shots, and more! From Senior Night games to championship games, I will be there to
-                        capture the action.</p>
-                    <p> Estimated 3 hours of total coverage</p>
-                </div>
+                <a href="https://www.instagram.com/ellab_images/" target="_blank"><u>Instagram</u></a>
             </div>
-            <div class="col-md-4">
-                <h3>Event Photography</h3>
-                <div class="service-box">
-                    <p>Hosting an event for your family, birthday parties, business events, or a fundraiser? This
-                        package includes lively pictures of event organizers, participants, and more to share and
-                        keep forever!</p>
-                </div>
+            <div class="col-md-4 text-center">
+                <h1>Ella B Images LLC</h1>
             </div>
-            <div class="col-md-4">
-                <h3>Portrait Photography</h3>
-                <div class="service-box">
-                    <p>This package is suited for birthdays, proms, graduations, and similar events. Every session
-                        is tailored to your unique style and preferences. Services can be customized to fit your
-                        desires to capture your special moments.</p>
-                    <p> Estimated 2 hours of total coverage</p>
-                </div>
+            <div class="col-md-4 text-end">
+                <a href="../">Home</a>
+                <a href="../about/">About</a>
+                <a href="#">Services</a>
+                <a href="../contact/">Contact</a>
             </div>
-        </div>
-    </section>
-    <section class="container-fluid bg-cream">
-        <div class="photo-gallery">
-            <img src="/projects/Portfolio/Site/img/ovieguy.jpg" alt="Man wearing Capitals Jersey Juggling Hockey Sticks"
-                class="gallery-tall">
-            <img src="/projects/Portfolio/Site/img/FH2.jpg" alt="Field Hockey game action shot">
-            <img src="/projects/Portfolio/Site/img/DSC02806.jpg" alt="Football game action shot">
-            <img src="/projects/Portfolio/Site/img/wedding1.jpg" alt="Wedding photography">
-            <img src="/projects/Portfolio/Site/img/prom1.jpg" alt="Prom portrait photo" class="gallery-tall">
-            <img src="/projects/Portfolio/Site/img/olivia1.jpg" alt="Graduation portrait photo" class="gallery-tall">
-            <img src="/projects/Portfolio/Site/img/jasmine2.jpg" alt="Portrait photo">
-            <img src="/projects/Portfolio/Site/img/cheer1.jpg" alt="Cheerleading photo" class="gallery-tall">
-            <img src="/projects/Portfolio/Site/img/queen1.jpg" alt="Ms. DC photo">
-            <img src="/projects/Portfolio/Site/img/bailei2.jpg" alt="Bailei Studio Portrait" class="gallery-tall">
-            <img src="/projects/Portfolio/Site/img/soccer2.jpg" alt="Soccer game action shot">
-            <img src="/projects/Portfolio/Site/img/kid1.jpg" alt="Child portrait photo" class="gallery-tall">
-            <img src="/projects/Portfolio/Site/img/oldman.jpg" alt="Senior Citizen Waving Flag">
-            <img src="/projects/Portfolio/Site/img/evelyn1.jpg" alt="Evelyn portrait photo" class="gallery-tall">
-            <img src="/projects/Portfolio/Site/img/football2.jpg" alt="Football game action shot">
-            <img src="/projects/Portfolio/Site/img/FH3.jpg" alt="Field Hockey game action shot" class="gallery-tall">
-            <img src="/projects/Portfolio/Site/img/soccer4.jpg" alt="Soccer game action shot">
-            <img src="/projects/Portfolio/Site/img/jasmine1.jpg" alt="Jasmine portrait photo" class="gallery-tall">
-            <img src="/projects/Portfolio/Site/img/FBband.jpg" alt="Football Band photo">
-            <img src="/projects/Portfolio/Site/img/soccer5.jpg" alt="Soccer game action shot">
-            <img src="/projects/Portfolio/Site/img/FH4.jpg" alt="Field Hockey game action shot">
-        </div>
-    </section>
-    <section class="container-fluid bg-cream">
-        <div class="container">
-            <div class="testimonials-heading">
-                <h2>Testimonials</h2>
-                <p> Here's what clients have to say:</p>
-            </div>
+        </nav>
+    </header>
+    <main class="container-fluid">
+        <section class="bg-burgundy services-section">
+            <!-- needed to keep burgundy background class tag for the h1 below for "My services" to show cream since all text is now burgundy and I dont have a different tag so for convenience I'm using what I already have set up elsewhere-->
+            <h1>My Services</h1>
             <div class="row">
                 <div class="col-md-4">
-                    <div class="testimonial-box">
-                        <p>"Prior to the photo shoot, Ella made sure to get an idea of what exactly I was looking for
-                            and then helped bring that to life at the physical shoot. The photography industry can be
-                            seen as nerve racking or over professional. I feel that Ella makes her clients feel
-                            comfortable and also offers ideas/poses instead of making the models come in already having
-                            a thought out plan. "</p>
-                        <h3>-Katherin Larkin</h3>
+                    <h3>Sports Photography</h3>
+                    <div class="service-box">
+                        <p>For those fast paced fleeting moments of the game! I will come capture warm up, mid game
+                            action shots, and more! From Senior Night games to championship games, I will be there to
+                            capture the action.</p>
+                        <p> Estimated 3 hours of total coverage</p>
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="testimonial-box">
-                        <p>"Ella stands out because of her genuine passion for capturing moments and her attention to
-                            detail. Unlike other photographers, she creates an atmosphere where clients feel comfortable
-                            and confident, which translates into her work. Her unique blend of creativity,
-                            professionalism, and care for her clients sets her apart."</p>
-                        <h3>-Tiffany Quinn</h3>
+                    <h3>Event Photography</h3>
+                    <div class="service-box">
+                        <p>Hosting an event for your family, birthday parties, business events, or a fundraiser? This
+                            package includes lively pictures of event organizers, participants, and more to share and
+                            keep forever!</p>
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="testimonial-box">
-                        <p>"The communication before our shoot was really good. Ella went out of her way to make sure
-                            that we got a place to take the pictures and even pivoted last minute when we found out it
-                            was gonna rain. She's very attentive and does her best to make sure her clients are
-                            comfortable. I'm confident that every time I work with her, I'll be more satisfied with the
-                            results."</p>
-                        <h3>-Bailei Bell</h3>
+                    <h3>Portrait Photography</h3>
+                    <div class="service-box">
+                        <p>This package is suited for birthdays, proms, graduations, and similar events. Every session
+                            is tailored to your unique style and preferences. Services can be customized to fit your
+                            desires to capture your special moments.</p>
+                        <p> Estimated 2 hours of total coverage</p>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+        <section class="bg-cream">
+            <div class="photo-gallery">
+                <img src="/projects/portfolio/site/img/ovieguy.jpg"
+                    alt="Man wearing Capitals Jersey Juggling Hockey Sticks" class="gallery-tall">
+                <img src="/projects/portfolio/site/img/FH2.jpg" alt="Field Hockey game action shot">
+                <img src="/projects/portfolio/site/img/DSC02806.jpg" alt="Football game action shot">
+                <img src="/projects/portfolio/site/img/wedding1.jpg" alt="Wedding photography">
+                <img src="/projects/portfolio/site/img/prom1.jpg" alt="Prom portrait photo" class="gallery-tall">
+                <img src="/projects/portfolio/site/img/olivia1.jpg" alt="Graduation portrait photo"
+                    class="gallery-tall">
+                <img src="/projects/portfolio/site/img/jasmine2.jpg" alt="Portrait photo">
+                <img src="/projects/portfolio/site/img/cheer1.jpg" alt="Cheerleading photo" class="gallery-tall">
+                <img src="/projects/portfolio/site/img/queen1.jpg" alt="Ms. DC photo">
+                <img src="/projects/portfolio/site/img/bailei2.jpg" alt="Bailei Studio Portrait" class="gallery-tall">
+                <img src="/projects/portfolio/site/img/soccer2.jpg" alt="Soccer game action shot">
+                <img src="/projects/portfolio/site/img/kid1.jpg" alt="Child portrait photo" class="gallery-tall">
+                <img src="/projects/portfolio/site/img/oldman.jpg" alt="Senior Citizen Waving Flag">
+                <img src="/projects/portfolio/site/img/evelyn1.jpg" alt="Evelyn portrait photo" class="gallery-tall">
+                <img src="/projects/portfolio/site/img/football2.jpg" alt="Football game action shot">
+                <img src="/projects/portfolio/site/img/FH3.jpg" alt="Field Hockey game action shot"
+                    class="gallery-tall">
+                <img src="/projects/portfolio/site/img/soccer4.jpg" alt="Soccer game action shot">
+                <img src="/projects/portfolio/site/img/jasmine1.jpg" alt="Jasmine portrait photo" class="gallery-tall">
+                <img src="/projects/portfolio/site/img/FBband.jpg" alt="Football Band photo">
+                <img src="/projects/portfolio/site/img/soccer5.jpg" alt="Soccer game action shot">
+                <img src="/projects/portfolio/site/img/FH4.jpg" alt="Field Hockey game action shot">
+            </div>
+        </section>
+        <section class="container-fluid bg-cream">
+            <div class="container text-cream">
+                <div class="testimonials-heading">
+                    <h2>Testimonials</h2>
+                    <p> Here's what clients have to say:</p>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="testimonial-box">
+                            <p>"Prior to the photo shoot, Ella made sure to get an idea of what exactly I was looking
+                                for
+                                and then helped bring that to life at the physical shoot. The photography industry can
+                                be
+                                seen as nerve racking or over professional. I feel that Ella makes her clients feel
+                                comfortable and also offers ideas/poses instead of making the models come in already
+                                having
+                                a thought out plan. "</p>
+                            <h3>-Katherin Larkin</h3>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="testimonial-box">
+                            <p>"Ella stands out because of her genuine passion for capturing moments and her attention
+                                to
+                                detail. Unlike other photographers, she creates an atmosphere where clients feel
+                                comfortable
+                                and confident, which translates into her work. Her unique blend of creativity,
+                                professionalism, and care for her clients sets her apart."</p>
+                            <h3>-Tiffany Quinn</h3>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="testimonial-box">
+                            <p>"The communication before our shoot was really good. Ella went out of her way to make
+                                sure
+                                that we got a place to take the pictures and even pivoted last minute when we found out
+                                it
+                                was gonna rain. She's very attentive and does her best to make sure her clients are
+                                comfortable. I'm confident that every time I work with her, I'll be more satisfied with
+                                the
+                                results."</p>
+                            <h3>-Bailei Bell</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
     <footer class="bg-cream text-center">
         <p>&copy; 2026 Ella B Images LLC. All rights reserved.</p>
     </footer>

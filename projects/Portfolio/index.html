@@ -5,6 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ella Buchanan Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
     <meta name="description" content="Photography Website and Portfolio of Ella Buchanan">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
@@ -18,61 +22,75 @@
 </head>
 
 <body>
-    <nav>
-        <div class="nav-links">
-            <a href="#">Home</a>
-            <a href="About/">About</a>
-            <a href="Services/">Services</a>
-            <a href="Contact/">Contact</a>
-        </div>
-        <div class="nav-instagram">
-            <a href="https://www.instagram.com/ellab_images/" target="_blank"><u>Instagram</u></a>
-        </div>
-        <div class="nav-brand">
-            Ella B Images LLC
-        </div>
-    </nav>
-    <section class="container-fluid bg-burgundy">
-        <img src="/projects/Portfolio/Site/img/dance1.jpg" alt="Photo of a dancer from University of Maryland">
-        <h2>Live in the Moment and Let me Capture it!</h2>
-    </section>
-    <section class="container-fluid bg-cream">
-        <div class="row">
+    <header>
+        <nav class="row align-items-center">
             <div class="col-md-4">
-                <img src="/projects/Portfolio/Site/img/Headshot.jpg" alt="headshot of Ella Buchanan">
+                <a href="https://www.instagram.com/ellab_images/" target="_blank"><u>Instagram</u></a>
             </div>
-            <div class="col-md-8">
-                <h3>Featured Photography</h3>
-                <p> My name is Ella Buchanan, and I am a passionate photographer dedicated to capturing the beauty and
-                    essence of life's moments. I am an award-winning sports, events, and portrait photographer trusted
-                    to deliver high-impact visuals under pressure. </p>
-                <p> From capturing peak action on the sidelines as a UMD Athletics Photography Intern to documenting our
-                    shared landscapes as the winner of the National Parks Photography Competition 2025, my work blends
-                    technical precision with a deep foundation in photography. </p>
-                <p> Based in the Washington D.C., Maryland, and Virginia region, I partner with athletic departments and
-                    creative agencies to deliver premium commercial assets, while working locally with individuals and
-                    organizations to document milestone events and timeless portraits. </p>
-                <p> My work has been featured in the Diamondback, Terrapin Sports Central,
-                    and University of Maryland Athletics Department. </p>
-                <p> Explore the galleries in <a href="/projects/Portfolio/Services/index.html">Services</a> to see more
-                    of my work. </p>
+            <div class="col-md-4 text-center">
+                <h1>Ella B Images LLC</h1>
             </div>
-        </div>
-    </section>
-    <section class="container-fluid bg-burgundy">
-        <div class="row">
-            <div class="col-md-4">
-                <img src="/projects/Portfolio/Site/img/band1.jpg" class="featured-photo" alt="MSOM Band Media Day">
+            <div class="col-md-4 text-end">
+                <a href="#">Home</a>
+                <a href="about/">About</a>
+                <a href="services/">Services</a>
+                <a href="contact/">Contact</a>
             </div>
-            <div class="col-md-4">
-                <img src="/projects/Portfolio/Site/img/soccer1.jpg" class="featured-photo"
-                    alt="Soccer game action shot">
+        </nav>
+    </header>
+
+    <main class="container-fluid">
+        <section>
+            <img src="/projects/portfolio/site/img/dance1.jpg" alt="Photo of a dancer from University of Maryland">
+            <h2>Live in the Moment and Let me Capture it!</h2>
+        </section>
+        <section class="bg-cream">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="/projects/portfolio/site/img/Headshot.jpg" alt="headshot of Ella Buchanan">
+                </div>
+                <div class="col-md-8">
+                    <h3>Featured Photography</h3>
+                    <p> My name is Ella Buchanan, and I am a passionate photographer dedicated to capturing the beauty
+                        and
+                        essence of life's moments. I am an award-winning sports, events, and portrait photographer
+                        trusted
+                        to deliver high-impact visuals under pressure. </p>
+                    <p> From capturing peak action on the sidelines as a UMD Athletics Photography Intern to documenting
+                        our
+                        shared landscapes as the winner of the National Parks Photography Competition 2025, my work
+                        blends
+                        technical precision with a deep foundation in photography. </p>
+                    <p> Based in the Washington D.C., Maryland, and Virginia region, I partner with athletic departments
+                        and
+                        creative agencies to deliver premium commercial assets, while working locally with individuals
+                        and
+                        organizations to document milestone events and timeless portraits. </p>
+                    <p> My work has been featured in the Diamondback, Terrapin Sports Central,
+                        and University of Maryland Athletics Department. </p>
+                    <p> Explore the galleries in <a href="/projects/portfolio/Services/index.html">Services</a> to see
+                        more
+                        of my work. </p>
+                </div>
             </div>
-            <div class="col-md-4">
-                <img src="/projects/Portfolio/Site/img/bailei1.jpg" class="featured-photo" alt="Bailei Studio Portrait">
+        </section>
+
+        <section>
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="/projects/portfolio/site/img/band1.jpg" class="featured-photo" alt="MSOM Band Media Day">
+                </div>
+                <div class="col-md-4">
+                    <img src="/projects/portfolio/site/img/soccer1.jpg" class="featured-photo"
+                        alt="Soccer game action shot">
+                </div>
+                <div class="col-md-4">
+                    <img src="/projects/portfolio/site/img/bailei1.jpg" class="featured-photo"
+                        alt="Bailei Studio Portrait">
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </main>
     <footer class="bg-cream text-center">
         <p>&copy; 2026 Ella B Images LLC. All rights reserved.</p>
     </footer>
