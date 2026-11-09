@@ -59,7 +59,9 @@ h3 {
     color: #69091f;
     font-style: italic;
 }
-
+.testimonial-box h3 {
+    color: #fee4cd;
+}
 section {
     padding: 40px 20px;
     text-align: center;
