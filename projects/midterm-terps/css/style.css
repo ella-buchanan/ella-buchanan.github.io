@@ -1,0 +1,67 @@
+h1 {
+    font-family: "Oswald", sans-serif;
+    font-size: 90px;
+    font-style: italic
+}
+
+h2 {
+    font-family: "Work Sans", sans-serif;
+    font-size: 1.25em;
+    font-weight: normal
+}
+
+h3 {
+    font-family: "Work Sans", sans-serif;
+    font-size: 30px;
+    font-weight: normal
+}
+
+img {
+    width: 100%;
+    height: auto;
+    padding: 0 0 15px 0;
+}
+
+header {
+    margin: 60px;
+}
+
+.overline {
+    font-family: "Oswald", sans-serif;
+    font-size: 1em;
+    color: red;
+}
+
+body {
+    font-family: "Work Sans", sans-serif;
+    font-size: 16px;
+}
+
+.container {
+    width: 55%;
+}
+
+.box {
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+a {
+    color: red;
+}
+
+.timeline {
+    background-color: #C5271D;
+    padding: 20px;
+    width: 98%;
+    color: white;
+}
+
+.timeline h3 {
+    margin: 50px 0 50px 0;
+}
+@media (max-width: 767px) {
+    .container {
+        width: 95%;
+    }
+}
