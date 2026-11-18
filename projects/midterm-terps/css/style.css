@@ -2,40 +2,34 @@
 
 h1 {
     font-family: "Oswald", sans-serif;
-    font-size: 5.625em;
+    font-size: 80px;
     font-style: italic;
 }
 
 h2 {
     font-family: "Work Sans", sans-serif;
-    font-size: 1.30em;
+    font-size: 1.20em;
     font-weight: normal;
 }
 
 h3 {
     font-family: "Work Sans", sans-serif;
     font-size: 1.9em;
-    font-weight: normal;
 }
 
 img {
     width: 100%;
     height: auto;
-    padding: 0 0 0.9375em 0;
+    padding: 0 0 15px 0;
 }
 
 header {
-    margin: 3.75em;
-}
-
-.overline {
-    font-family: "Oswald", sans-serif;
-    color: red;
+    margin: 3.75em 0;
 }
 
 body {
     font-family: "Work Sans", sans-serif;
-    font-size: 1em;
+    font-size: 16px;
 }
 
 .container {
@@ -47,6 +41,7 @@ body {
     padding: 1.25em;
 }
 
+.overline,
 a {
     color: red;
 }
